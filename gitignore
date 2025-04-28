@@ -1,1 +1,69 @@
 
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Ignore environment/conda/pip files
+*.env
+*.conda
+*.pkl
+*.h5
+*.joblib
+*.pt
+*.pth
+
+# Ignore large dataset files
+*.csv
+*.tsv
+*.data
+*.dat
+*.gz
+*.zip
+*.tar
+*.tar.gz
+
+# Ignore model weights
+*.h5
+*.hdf5
+*.ckpt
+*.pb
+*.onnx
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore output files
+*.out
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore notebooks' output cache
+.ipynb_checkpoints/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore experiment tracking folders
+mlruns/
+wandb/
+
+# Ignore __pycache__
+__pycache__/
+*.pyc
+
+# Ignore pip packages
+pip-wheel-metadata/
